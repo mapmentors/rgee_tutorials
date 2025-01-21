@@ -85,5 +85,4 @@ task$start()
 
 This is a demo NDVI analysis that uses GEE API for R.
 
-
-![ndvi_bang](https://github.com/user-attachments/assets/874b3078-2d50-4907-9753-32e1f88885e9)
+![Rplot](https://github.com/user-attachments/assets/9430fb18-cbf8-4227-9098-b8918d4f96b2)

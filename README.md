@@ -68,21 +68,15 @@ task <- ee$batch$Export$image$toDrive(
 )
 task$start()
 ```
-
 ## Troubleshooting
-
 - Ensure that your Google Earth Engine account is correctly authenticated by running `ee_Initialize()`.
 - If you encounter issues with exporting data, check if the task has been properly initiated with `task$start()`.
 - Refer to the [Google Earth Engine Documentation](https://developers.google.com/earth-engine/) for additional details on API usage and features.
 
 ## References
-
 - [Google Earth Engine Documentation](https://developers.google.com/earth-engine/)
 - [rgee GitHub Repository](https://github.com/r-spatial/rgee)
 - [Google Earth Engine API Documentation](https://developers.google.com/earth-engine/guides)
 
-
-
 This is a demo NDVI analysis that uses GEE API for R.
-
 ![Rplot](https://github.com/user-attachments/assets/9430fb18-cbf8-4227-9098-b8918d4f96b2)

@@ -80,4 +80,10 @@ task$start()
 - [Google Earth Engine Documentation](https://developers.google.com/earth-engine/)
 - [rgee GitHub Repository](https://github.com/r-spatial/rgee)
 - [Google Earth Engine API Documentation](https://developers.google.com/earth-engine/guides)
+
+
+
+This is a demo NDVI analysis that uses GEE API for R.
+
+
 ![ndvi_bang](https://github.com/user-attachments/assets/874b3078-2d50-4907-9753-32e1f88885e9)

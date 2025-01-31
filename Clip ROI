@@ -1,0 +1,17 @@
+#How to clip your region of interest (ROI)
+library(rgee)
+ee$Authenticate(auth_mode = 'notebook')
+ee$Initialize(project ='mapmentorsx')
+
+#Import shapefile to r
+table <- ee$FeatureCollection("projects/mapmentorsx/assets/Nepal")
+Dailekh<- table$filter(ee$Filter$eq('DIST_EN', 'Dailekh'))
+
+Map$addLayer(Dailekh, {},'ROI')
+Map$centerObject(Dailekh, 10)
+
+#Import point coordinates
+POINT<- ee$Geometry$Point(132.1872701642745, -24.445012102322494)
+
+Map$addLayer(POINT, {}, 'Point at somewhere')
+Map$centerObject(POINT, 17)
